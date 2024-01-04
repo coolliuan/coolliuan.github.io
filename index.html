@@ -230,6 +230,73 @@
 
 
   
+    <article id="post-hexo文章置顶" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2024/01/04/hexo%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6/">hexo文章置顶</a>
+    </h1>
+  
+
+        
+        <a href="/2024/01/04/hexo%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6/" class="archive-article-date">
+  	<time datetime="2024-01-04T02:54:14.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2024-01-04</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p><code>npm install hexo-generator-index-pin-top --save</code></p>
+<h2 id="配置置顶标准"><a href="#配置置顶标准" class="headerlink" title="配置置顶标准"></a>配置置顶标准</h2><p>在&#x2F;themes&#x2F;*&#x2F;layout&#x2F;post.ejs中加入代码</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (page.top) &#123; %&gt;</span><br><span class="line">  <span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-thumb-tack&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">7D26CD</span>&gt;</span>置顶<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;post-meta-divider&quot;</span>&gt;</span>|<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="文章优先级配置"><a href="#文章优先级配置" class="headerlink" title="文章优先级配置"></a>文章优先级配置</h2><p>top数字越大，优先级越高</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 2019</span><br><span class="line">date: 2019-02-14 16:10:03</span><br><span class="line">top: 5</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2024/01/04/hexo%E6%96%87%E7%AB%A0%E7%BD%AE%E9%A1%B6/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
